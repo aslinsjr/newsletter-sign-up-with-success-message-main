@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Scripts -->
+  <script src="script.js" defer></script>
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <main>
+    <div class="container">
+      <div class="img-container">
+        <div class="image"></div>
+      </div>
+      <div class="subscribe-container">
+        <div class="header-container">
+          <h1>Stay updated!</h1>
+          <p>Join 60,000+ product managers receiving monthly updates on:</p>
+        </div>
+        <div class="benefits-container">
+          <div class="benefits">
+            <img src="assets/images/icon-success.svg" alt="Success Icon">
+            <p>Product discovery and building what matters</p>
+          </div>
+          <div class="benefits">
+            <img src="assets/images/icon-success.svg" alt="Success Icon">
+            <p>Measuring to ensure updates are a success</p>
+          </div>
+          <div class="benefits">
+            <img src="assets/images/icon-success.svg" alt="Success Icon">
+            <p>And much more!</p>
+          </div>
+        </div>
+        <div class="form-container">
+          <form id="subscribe-form">
+            <label for="email">Email address</label>
+            <input 
+            required 
+            type="email" 
+            name="email" 
+            id="subscribe-email" 
+            placeholder="email@company.com"
+            />
+            <span class="error"></span>
+            <input type="submit" id="submit-btn" value="Subscribe to monthly newsletter">
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Alexandre Lins</a>.
+    </div>
+  </footer>
+</body>
+</html>
